@@ -1,0 +1,29 @@
+body {
+	background: url("tech.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Monoton', cursive;
+}
+
+div	{
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	padding: 450px 0 0 0;
+	text-decoration: underline blue;
+}
+
+.btn-light {
+	font-family: 'Monoton', cursive;
+	margin: 20px;
+	border-radius: 25px;
+	transition: background-color 0.1s linear, transform .25s linear;
+}
+
+.btn-light:hover {
+	transform: scale(1.25);
+	background-color: black;
+	border-color: blue;
+	color: blue;
+}
